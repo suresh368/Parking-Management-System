@@ -4,19 +4,19 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/yourusername/yourrepo.git'
+                echo 'Cloning done automatically by Jenkins'
             }
         }
 
         stage('Build') {
             steps {
-                echo 'Building the project...'
+                echo 'Building Parking Management System 🚗'
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Running tests...'
+                echo 'Testing project...'
             }
         }
 
